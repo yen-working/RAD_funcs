@@ -22,6 +22,10 @@ A warning should be formatted as a H3 heading:
 [Where code blocks go.]
 ```
 
+### Notes
+1. REDCap:
+- Whenever exporting data from REDCap, always use argument `export_blank_for_gray_form_status=True` to differentiate between forms that are incomplete vs. forms that are unfilled. Without setting this argument, these two are indistinguishable.
+
 ### Enhancement lists
 - Script to spin up local Docker instance and run DAGs.
 
