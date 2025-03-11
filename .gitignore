@@ -4,6 +4,7 @@
 *.xls
 .DS_Store
 *.log
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
