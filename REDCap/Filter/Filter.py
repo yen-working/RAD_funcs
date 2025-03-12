@@ -1,5 +1,5 @@
 '''
-A class that stores a condition and the changes that follow that condition.
+A class that stores a filter and the changes that follow that condition (if any).
 '''
 
 from Change.Change import Change
@@ -7,9 +7,9 @@ from utils import get_operator_function
 
 
 ################################################################################
-class ConditionChanges:
+class Filter:
     # --------------------------------------------------------------------------
-    def __init__(self, condition: str, changes: list[Change]):
+    def __init__(self, condition: str, changes: list[Change] = []):
         """
         Initialize the ConditionChanges class.
 
