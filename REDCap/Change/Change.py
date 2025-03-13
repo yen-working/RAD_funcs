@@ -1,6 +1,7 @@
-'''
+"""
 A class that stores a field's name, its old value and its new value.
-'''
+"""
+
 
 ################################################################################
 class Change:
@@ -21,4 +22,3 @@ class Change:
         self.field_name = field_name
         self.old_value = old_value
         self.new_value = new_value
-
