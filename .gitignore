@@ -5,6 +5,7 @@
 .DS_Store
 *.log
 *.json
+*.zip
 Files/
 
 # Byte-compiled / optimized / DLL files
